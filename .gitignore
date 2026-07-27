@@ -10,7 +10,6 @@
 
 # env files
 .env*.local
-.env
 
 # misc
 .DS_Store
@@ -20,3 +19,12 @@ npm-debug.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# testing
+/test-results/
+/playwright-report/
+/tests/e2e/__snapshots__/*-linux.png
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
